@@ -1,8 +1,9 @@
-@import '../base/media.scss';
-@import '../base/mixins.scss';
-@import '../base/variables.scss';
-@import '../base/general.scss';
+@import 'base/variables.scss';
 
 *{
     font-family: 'Museo Sans', sans-serif;
 }
+
+@import 'base/media.scss';
+@import 'base/mixins.scss';
+@import 'base/general.scss';
