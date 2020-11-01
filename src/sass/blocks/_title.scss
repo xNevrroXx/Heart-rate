@@ -4,4 +4,17 @@
     line-height: 27px;
     font-weight: 700;
     text-align: center;
+    text-transform: uppercase;
+
+    &_advantages {
+        margin-bottom: 65px;
+    }
+
+    &_consultation {
+        color: #ffffff;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: left;
+        margin-bottom: 80px;
+    }
 }
