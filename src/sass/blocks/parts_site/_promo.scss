@@ -1,5 +1,4 @@
 .promo {
-    max-height: 650px;
     padding: 21px 0 93px 0;
     background: url(../../images/bg/bg_1.jpg) center (center/cover) no-repeat;
     
@@ -7,66 +6,67 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+    }
+    &__header{
+    color: #ffffff;
+    font-size: 42px;
+    line-height: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+    }
 
-        .promo__header{
+    &__subheader{
         color: #ffffff;
-        font-size: 42px;
-        line-height: 38px;
-        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 500;
+        text-align: right;
         text-transform: uppercase;
-        margin-bottom: 17px;
-        }
+        margin-bottom: 67px;
+    }
 
-        .promo__subheader{
-            color: #ffffff;
-            font-size: 24px;
-            line-height: 24px;
-            font-weight: 500;
-            text-align: right;
-            text-transform: uppercase;
-            margin-bottom: 67px;
-        }
+    &__icons{
+        width: 424px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 67px;
 
-        .promo__icons{
-            width: 424px;
+        &__icon{
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             align-items: center;
-            margin-bottom: 67px;
-
-            &__icon{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-                img{
-                    max-width: 45px;
-                    margin-bottom: 20px;
-                }
+            justify-content: center;
+            text-align: center;
+            color: #ffffff;
+            img{
+                max-width: 45px;
+                margin-bottom: 20px;
             }
         }
+    }
 
-        .button_main{
-            width: 300px;
-            height: 50px;
-            font-size: 16px;
-            margin-bottom: 18px;
-        }
+    .endOf__promo {
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
 
-        .promo__link{
-            color: #ffffff;
-            font-size: 16px;
-            line-height: 16px;
-            font-weight: 500;
-            text-align: right;
-            a{
-                color: #ffffff; 
-                text-transform: uppercase;
-                text-decoration: underline;
-                &:hover{
-                    color:#ffffff;
-                }
+    .promo__link{
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 500;
+        text-align: right;
+        a{
+            color: #ffffff; 
+            text-transform: uppercase;
+            text-decoration: underline;
+            &:hover{
+                color:#ffffff;
             }
         }
     }

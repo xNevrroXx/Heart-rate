@@ -1,0 +1,142 @@
+@media (max-width: 1100px) {
+    .container{
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container{
+        max-width: 700px;
+    }
+
+    .promo{
+        padding-bottom: 60px;
+    }
+
+    .button_main{
+        width: 290px;
+        height: 49px;
+    }
+
+    .advantages__blocks{
+        max-width: 210px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hide_mobile{
+        display: none;
+    }
+
+    .visible_mobile {
+        display: block;
+    }
+
+    .container{
+        max-width: 570px;
+    }
+
+    .header{
+        margin-bottom: 52px;
+    }
+
+    .header__logo {
+        width: 220px;
+    }
+
+    .promo {
+        padding-bottom: 50px;
+        
+        &__wrapper {
+            align-items: center;
+        }
+    }
+
+    .advantages{
+        padding: 55px 0 60px 0;
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__blocks {
+            max-width: 242px;
+
+            &:not(:last-of-type) {
+                margin-bottom: 50px;
+            }
+        }
+
+        &__blocks__header {
+            margin-bottom: 11px;
+        }
+
+        img {
+            margin-bottom: 13px;
+        }
+    }
+}
+
+@media (max-width: 639px) {
+    .container{
+        max-width: 510px;
+    }
+
+    .promo {
+        &__header {
+            font-size: 39px;
+        }
+
+        &__subheader {
+            font-size: 23px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .container{
+        max-width: 330px;
+    }
+
+    .header {
+        margin-bottom:  40px;
+
+        &__logo {
+            max-width: 160px;
+        }
+
+        &__contacts {
+            width: 127px;
+        }
+        
+        button {
+            width: 100%;
+        }
+    }
+
+    .promo {
+        &__header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        &__subheader {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+            justify-content: start;
+            max-width: 100%;
+            margin-bottom: 45px;
+        }
+        &__icons__icon:not(:last-child){
+            margin-bottom: 25px;
+        }
+
+        .button_main {
+            width: 250px;
+            height: 39px
+        }
+    }
+}

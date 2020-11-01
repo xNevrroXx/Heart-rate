@@ -1,3 +1,11 @@
+.hide_mobile{
+    display: block;
+}
+
+.visible_mobile {
+    display: none;
+}
+
 .container{
     max-width: 950px;
     margin: 0 auto; 
